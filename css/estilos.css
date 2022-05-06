@@ -1,0 +1,64 @@
+
+
+header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #9C9999;
+        align-items: center;
+        padding: 5px;
+    }
+
+#logo{
+     	max-height: 400px ;
+     	padding: 10px; 
+        margin: 10px;
+        float: left;
+        width: 250px; 
+        display: block;
+     }
+
+nav a{
+       padding-right: 15px;
+       list-style-type: none;}
+nav a:hover{
+       color: white;
+}
+
+.destacados{
+    padding:10px;
+    list-style-image: 
+ 
+
+
+}
+.imagenesmovibles:hover{
+
+        -webkit-transform:scale(1.3);
+        transform:scale(1.2);}
+
+    
+
+.imagenesmovibles{
+    	margin: 5%%;
+    	max-height: 200px;
+        }
+
+ h1{
+        display: flex;
+        font-size: 100px;
+        font-family: "Montserrat", Sans-serif;}
+
+a{
+        text-decoration: none;
+        color: black; 
+
+}
+
+
+.foote :hover {
+    color: grey;
+    padding: 15px;
+}
+.foote{
+    padding-right: 1213120px;
+}
