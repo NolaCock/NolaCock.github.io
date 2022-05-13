@@ -1,14 +1,15 @@
 *{
     margin: 0;
+    padding-bottom: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
-body{
-    margin: 0;
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
-
 header{
 
         min-height: 120px ;
@@ -62,7 +63,7 @@ nav a:hover{
     
 
 .imagenesmovibles{
-    	margin: 5%%;
+    	margin: 5%;
     	max-height: 200px;
 }
 
@@ -112,7 +113,7 @@ a{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content:unsafe center;
+    justify-content:center;
     align-items: center;
 
 }
@@ -149,7 +150,7 @@ a{
 }
  @media screen and (max-width: 800px){
     .footer .grupo-1{
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
